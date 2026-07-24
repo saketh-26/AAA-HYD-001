@@ -97,7 +97,7 @@ for i in range(1,n+1):
         #print(f'Value of i is {i},Value of j is {j}')
         print('*',end=' ')
     print()
-
+#Home Tasks
 #Inverted triangle 
 * * * *
 * * *
@@ -110,6 +110,7 @@ for i in range(1,n+1):
 4 5 6
 7 8 9 10
 
+\
 A
 B C
 D E F
