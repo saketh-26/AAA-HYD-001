@@ -1,0 +1,39 @@
+Python 3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+#Datatypes and TypeConversions
+#Datatypes --> Numeric Datatypes,Sequence Types,Boolean,mapping type
+#Numeric Datatypes -->int,float,complex
+age = 32
+type(age)
+<class 'int'>
+type(32)
+<class 'int'>
+type(02)
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+type(2)
+<class 'int'>
+>>> #float-->discount values,percentages
+>>> price = 45.5
+>>> type(price)
+<class 'float'>
+>>> #complex -->real and imaginary values --> (math format --> a+ib a-ib)
+>>> data = 5 + i4
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    data = 5 + i4
+NameError: name 'i4' is not defined. Did you mean: 'id'?
+>>> i4 = 89
+>>> data = 5 + i4
+>>> data
+94
+>>> data = 5 + 4i
+SyntaxError: invalid decimal literal
+>>> data = 5 + 4j
+>>> data
+(5+4j)
+>>> type(data)
+<class 'complex'>
+>>> #Boolean Datatype --> True / False
+>>> True = 34
+SyntaxError: cannot assign to True
+>>> #TypeConversions
